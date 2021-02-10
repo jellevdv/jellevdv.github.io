@@ -1,0 +1,166 @@
+/*lichtblauw: #3dbfc4;
+  donker blauw: #279da1;
+  bruin #887920;
+  donkerbruin: #72651B
+  lichtbruin: #a89b4b
+*/
+
+body {
+  background-image: url('../assets/so-white.png');
+}
+
+a {
+  color: black;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #887920;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fa-facebook-square {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.fa-facebook-square:hover {
+  transform: scale(1.5);
+}
+
+/* navbar */
+.navbar {
+  background-color: #a89b4b;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-item:hover {
+  font-weight: bolder;
+}
+
+.dropdown-menu {
+  background-color: #a89b4b;
+  border-color: white;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/*
+li {
+  float: left;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+li::after {
+  background-color: rgb(255, 255, 255);
+  content: '';
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: 0.35s ease 0s;
+  position: absolute;
+}
+
+li:hover::after {
+  width: 100%;
+}
+*/
+
+/* header */
+.header {
+  background-color: #3dbfc4;
+}
+
+/*buttons */
+.btn {
+  background-color: #3dbfc4;
+  transition: transform 0.3s;
+  border: none;
+}
+.btn:hover {
+  background-color: #279da1;
+  transform: scale(1.05);
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #887920;
+}
+
+/*doelgroep */
+.doelgroep {
+  background: rgba(39, 157, 161, 0.7);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.doelgroep_tekst {
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgb(43, 41, 41);
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 3px 4px 7px rgba(236, 234, 226, 0.8);
+}
+
+/* terugbetaling */
+.btn_contact_container {
+  align-items: center;
+  text-align: center;
+}
+
+.btn_contact {
+  background-color: #a89b4b;
+  margin: 1.1rem;
+  padding: 1.1rem;
+}
+
+.btn_contact:hover {
+  background-color: #a89b4b;
+}
+
+/* contact */
+.contact_wrap {
+  display: flex;
+  padding: 1.1rem;
+}
+.contact_container {
+  background-color: #279da1;
+  padding: 1.1rem;
+}
+
+/* footer  */
+#footer {
+  margin-top: 4rem;
+  background-color: #a89b4b;
+  margin-bottom: 0px;
+}
+
+.footerheadings {
+  color: rgb(88, 80, 33);
+  margin-top: 2rem;
+  text-shadow: 1px 2px 2px rgba(255, 254, 254, 0.5);
+}
+
+.vanbyte_footer {
+  color: rgb(88, 80, 33);
+  text-align: center;
+}
