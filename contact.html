@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/2d11755fa6.js" crossorigin="anonymous"></script>
 
@@ -58,10 +59,10 @@
     </nav>
     <!--einde navbar-->
 
-    <div class="container">
-        <h1>Contacteer ons</h1>
+    <div class="container ctr">
+        <h1>Maak een afspraak</h1>
         <div class='contact_wrap'>
-            <div class=" container contact_container">
+            <div class=" container ctr contact_container">
                 <h2>Merkem</h2>
                 <div class="col-md-12 mb-6">
                     <hr>
@@ -74,7 +75,7 @@
                     <button class='btn' id='btn_afspraak_merkem'>Maak afspraak</button>
                 </div>
             </div>
-            <div class="container contact_container">
+            <div class="container ctr contact_container">
                 <h2>Langemark</h2>
                 <div class="col-md-12 mb-6">
                     <hr>
@@ -89,6 +90,62 @@
             </div>
         </div>
     </div>
+    <div class="container ctr form_container">
+        <h1>Of stuur ons een mailtje</h1>
+        <form action="action_page.php">
+
+            <label for="fname">Je naam</label>
+            <input type="text" id="fname" name="firstname" placeholder="Bv. Ellen">
+
+            <label for="lname">Je e-mail</label>
+            <input type="text" id="lname" name="lastname" placeholder="Bv. ellen@gmail.com">
+
+            <label for="lname">Onderwerp</label>
+            <input type="text" id="lname" name="lastname" placeholder="Bv. vragen bij terugbetaling">
+
+            <label for="subject">Bericht</label>
+            <textarea id="subject" name="subject" placeholder="Typ hier je bericht" style="height:200px"></textarea>
+
+            <input type="submit" value="Verstuur">
+
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Like ons op</h5>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Contacteer ons</h5>
+                    <address>
+                        <i class="fas fa-phone-alt"></i>
+                        0476/ 88 06 66
+                        <br>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:#">thamaradevos@hotmail.com</a>
+                    </address>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Locatie</h5>
+                    <address>
+                        <strong>Podologie Thamara</strong>
+                        <br>Iepersteenweg 34
+                        <br>8650 Merkem
+                        <br>
+                    </address>
+                </div>
+            </div>
+            <hr>
+            <h5 class='vanbyte_footer'>2021 - <a href='https://www.vanbyte.be' target="_blank">VANBYTE</a></h5>
+        </div>
+        <br>
+
+    </section>
+    <!-- ./Footer -->
 
     <!-- Optional JavaScript -->
     <script src="/javascript/script.js"></script>
