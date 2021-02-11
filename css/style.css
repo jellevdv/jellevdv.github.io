@@ -147,6 +147,17 @@ h5 {
   padding: 1.1rem;
 }
 
+/* behandelingen */
+/* voetverzorging */
+.behandeling {
+  display: flex;
+}
+
+.behandeling_omgekeerd {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /* footer  */
 #footer {
   margin-top: 4rem;

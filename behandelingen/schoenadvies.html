@@ -9,7 +9,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/behandelingen.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/2d11755fa6.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
 </head>
 
@@ -17,12 +20,11 @@
 
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -31,12 +33,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../doelgroep.html">Doelgroep</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Behandelingen
                     </a>
-                    <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="voetverzorging.html">Podologische
                             voetverzorging</a>
                         <a class="dropdown-item" href="zolen.html">Podologische zolen</a>
@@ -57,8 +59,59 @@
         </div>
     </nav>
     <!--einde navbar-->
+    <div class="container">
+        <h1>Schoenadvies</h1>
 
-    <h1>Schoenadvies</h1>
+        <!-- wat meebrengen -->
+        <div class="container headline">
+            <h2> Algemene aandachtspunten bij het kopen van nieuwe schoenen: </h2>
+            <form id="todo-list">
+                <span class="todo-wrap EenPerEen1">
+                    <input type="checkbox" id="1" checked />
+                    <label for="1" class="todo">
+                        <i class="fa fa-check"></i>
+                        Koop het best de schoenen in de namiddag. De voeten zwellen op gedurende dag
+                    </label>
+                </span>
+                <span class="todo-wrap EenPerEen2">
+                    <input type="checkbox" id="2" />
+                    <label for="2" class="todo">
+                        <i class="fa fa-check"></i>
+                        Een optimale hakhoogte van 2,5cm tot 3cm wordt aanbevolen. Dagelijks een hogere hakhoogte dragen
+                        is sterk afgeraden
+                    </label>
+                </span>
+                <span class="todo-wrap EenPerEen3">
+                    <input type="checkbox" id="3" />
+                    <label for="3" class="todo">
+                        <i class="fa fa-check"></i>
+                        Stevige hiel
+                    </label>
+                </span>
+                <span class="todo-wrap EenPerEen4">
+                    <input type="checkbox" id="4" />
+                    <label for="4" class="todo">
+                        <i class="fa fa-check"></i>
+                        De schoen mag enkel plooien ter hoogte van de tenen
+                    </label>
+                </span>
+                <span class="todo-wrap EenPerEen5">
+                    <input type="checkbox" id="5" />
+                    <label for="5" class="todo">
+                        <i class="fa fa-check"></i>
+                        Een uitneembare voetbed is aangeraden bij het dragen van zolen
+                    </label>
+                </span>
+                <span class="todo-wrap EenPerEen6">
+                    <input type="checkbox" id="6" />
+                    <label for="6" class="todo">
+                        <i class="fa fa-check"></i>
+                        Liefst veters of klitteband om de schoenen goed aan te spannen
+                    </label>
+                </span>
+            </form>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
