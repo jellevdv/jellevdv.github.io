@@ -3,4 +3,6 @@
 11/02: 1uur (alle overige info erin)
 
 
-nice-to-have's: bewegende streep onder navbar (zie de linde site)
+nice-to-have's: 
+- bewegende streep onder navbar (zie de linde site)
+- button in footer die naar top van pagina gaat

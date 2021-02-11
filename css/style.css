@@ -12,7 +12,6 @@ body {
 
 a {
   color: black;
-  font-weight: bolder;
 }
 
 a:hover {
@@ -84,6 +83,10 @@ li:hover::after {
   background-color: #3dbfc4;
 }
 
+.logo_trans {
+  display: flex;
+}
+
 /*buttons */
 .btn {
   background-color: #3dbfc4;
@@ -103,7 +106,14 @@ h4,
 h5 {
   color: #887920;
 }
-
+/* homepage */
+.profielfoto {
+  border-radius: 30%;
+  max-width: 100%;
+}
+.over_mezelf_container {
+  padding: 3rem;
+}
 /*doelgroep */
 .doelgroep {
   background: rgba(39, 157, 161, 0.7);
