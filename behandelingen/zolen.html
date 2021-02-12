@@ -62,16 +62,19 @@
         </div>
     </nav>
     <!--einde navbar-->
-    <div class="container">
-        <h1>Podologische zolen</h1>
-        <p>Zooltherapie wordt aangeraden wanneer er een duidelijk, oorzakelijk verband bestaat tussen de klinische
-            testen en
-            bewegingsanalyse
-            enerzijds en de klachten anderzijds. Podologische zolen kunnen ook aanbevolen worden vooraleer er zich
-            klachten
-            voordoen.</p>
+    <div class="container ">
+        <div class="container doelgroep">
+            <h1>Podologische zolen</h1>
+            <p>Zooltherapie wordt aangeraden wanneer er een duidelijk, oorzakelijk verband bestaat tussen de klinische
+                testen en
+                bewegingsanalyse
+                enerzijds en de klachten anderzijds. Podologische zolen kunnen ook aanbevolen worden vooraleer er zich
+                klachten
+                voordoen.</p>
+        </div>
 
-        <div class="container">
+
+        <div class="container doelgroep">
             <div id="accordion" class="accordeon">
 
                 <h2>Hoe wordt een podologische zool nu gemaakt? </h2>
@@ -79,15 +82,15 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0 ">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne ">
+                            <button class="btn btn-link accordeon_item" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne ">
                                 1. Anamnese
                             </button>
                         </h5>
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body accordeon_tekst">
                             uitgebreid vraaggesprek van de klacht
                         </div>
                     </div>
@@ -97,14 +100,14 @@
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="btn btn-link collapsed accordeon_item" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 2. Klinisch- en biomechanisch onderzoek
                             </button>
                         </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body accordeon_tekst">
                             De spierkracht, spierlengte, mobiliteit van gewrichten... worden getest.
                         </div>
                     </div>
@@ -114,14 +117,14 @@
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
+                            <button class="btn btn-link collapsed accordeon_item" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 3. Ganganalyse
                             </button>
                         </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body accordeon_tekst">
                             stappatroon wordt gefilmd en opgenomen met behulp
                             van high speed camera.
                         </div>
@@ -131,14 +134,14 @@
                 <div class="card">
                     <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                                aria-expanded="false" aria-controls="headingFour">
+                            <button class="btn btn-link collapsed accordeon_item" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="headingFour">
                                 4. 3D- scan
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body accordeon_tekst">
                             3D- scan van de voeten waarop de podologische zolen digitaal
                             worden ontworpen.
                         </div>
@@ -148,14 +151,14 @@
                 <div class="card">
                     <div class="card-header" id="headingFive">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-                                aria-expanded="false" aria-controls="collapseFive">
+                            <button class="btn btn-link collapsed accordeon_item" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 5. Schoenadvies
                             </button>
                         </h5>
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body accordeon_tekst">
                             stappatroon wordt gefilmd en opgenomen met behulp
                             van high speed camera.
                         </div>
@@ -207,18 +210,55 @@
                 </form>
             </div>
         </div>
+    </div>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Like ons op</h5>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Contacteer ons</h5>
+                    <address>
+                        <i class="fas fa-phone-alt"></i>
+                        0476/ 88 06 66
+                        <br>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:#">thamaradevos@hotmail.com</a>
+                    </address>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footerheadings">Locatie</h5>
+                    <address>
+                        <strong>Podologie Thamara</strong>
+                        <br>Iepersteenweg 34
+                        <br>8650 Merkem
+                        <br>
+                    </address>
+                </div>
+            </div>
+            <hr>
+            <h5 class='vanbyte_footer'>2021 - <a href='https://www.vanbyte.be' target="_blank">VANBYTE</a></h5>
+        </div>
+        <br>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    </section>
+    <!-- ./Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

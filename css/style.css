@@ -221,3 +221,15 @@ h5 {
   color: rgb(88, 80, 33);
   text-align: center;
 }
+
+/* zolen */
+.accordeon_item {
+  color: #887920;
+  background-color: white;
+}
+.accordeon_item:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #887920;
+  text-decoration: none;
+}

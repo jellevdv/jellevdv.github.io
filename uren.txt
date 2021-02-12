@@ -10,4 +10,5 @@ nice-to-have's:
 
 todo's:
 - foto op index page zelfde grootte als andere
+- doelgreop margin fixen wanneer scherm klein wordt
 - footer
