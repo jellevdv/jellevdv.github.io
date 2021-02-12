@@ -115,35 +115,45 @@ h5 {
   padding: 3rem;
 }
 /*doelgroep */
-.doelgroep {
-  background: rgba(39, 157, 161, 0.7);
-  margin-top: 2rem;
-  padding: 2rem;
+.carousel_container {
+  height: 2rem;
+  margin-bottom: 30em;
 }
 
-.kinderen_container {
-  background-image: url('/assets/kinderen.jpg');
+.meebrengen_container {
+  margin-top: 2em;
 }
-.volwassenen_container {
-  background-image: url('/assets/zolen2.jpg');
-  background-size: cover;
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
 }
+.carousel img {
+  width: auto;
+  height: 700px;
+  max-height: 700px;
+}
+
+.carousel_volgende {
+  size: 500px;
+}
+.doelgroep {
+  /*
+  background: rgba(82, 82, 82, 0.7);
+  margin-top: 2rem;
+  padding: 2rem;
+  */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 3rem;
+}
+
 .doelgroep_h1 {
   padding: 0px;
 }
 
-.kinderen_h1 {
-  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.8);
-}
-
 .doelgroep_tekst {
-  color: whitesmoke;
-  text-shadow: 1px 1px 2px rgb(43, 41, 41);
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-font-smoothing: antialiased !important;
-  text-rendering: optimizelegibility !important;
-  letter-spacing: 0.03em;
+  font-weight: normal;
 }
 
 .quote {
