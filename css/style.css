@@ -207,9 +207,25 @@ h5 {
   margin: auto;
   margin-top: 2em;
 }
+.pagination > li > a {
+  color: #a89b4b;
+}
 
-.page-item.active {
-  font-weight: bold;
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  background-color: #a89b4b;
+  color: whitesmoke;
+  border: none;
+}
+
+.pagination > .actief > a {
+  background-color: #a89b4b;
+  color: whitesmoke;
+}
+
+.pagination > .actief > a:hover {
 }
 
 /* voetverzorging */
