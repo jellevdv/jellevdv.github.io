@@ -47,7 +47,14 @@ a:hover {
 
 .dropdown-menu {
   background-color: #a89b4b;
-  border-color: white;
+  border-width: 1px;
+  border-color: whitesmoke;
+}
+.dropdown-item:hover {
+  color: #a89b4b;
+}
+.dropdown-item:active {
+  background-color: #a89b4b;
 }
 
 .active {
@@ -232,4 +239,8 @@ h5 {
   font-weight: bold;
   color: #887920;
   text-decoration: none;
+}
+/* springs */
+.hier {
+  font-weight: bolder;
 }
