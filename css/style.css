@@ -201,6 +201,17 @@ h5 {
 }
 
 /* behandelingen */
+
+/* verwijzing */
+.verwijzing {
+  margin: auto;
+  margin-top: 2em;
+}
+
+.page-item.active {
+  font-weight: bold;
+}
+
 /* voetverzorging */
 .behandeling {
   display: flex;
